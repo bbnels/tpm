@@ -40,7 +40,7 @@ export default function Exams() {
       <Table 
         headers={['name']}
         data={exams}
-        onDelete={deleteExams}
+        onDelete={deleteExam}  // corrected from `deleteExams` to `deleteExam`
       />
     </Layout>
   );
